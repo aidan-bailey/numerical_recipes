@@ -1,16 +1,16 @@
 [package]
-name = "rs_lib_template"
+name = "numerical_recipes"
 version = "0.0.1"
-#authors = 
+authors = ["Aidan Bailey"]
 edition = "2021"
 #rust-version = 
 #description =
 #documentation = 
 readme = "README.md"
 #homepage =
-#repository =
-#license = 
-#license-file =
+repository = "https://github.com/aidan-bailey/numerical_recipes"
+license = "MIT"
+license-file = "LICENSE"
 #keywords =
 #categories =
 #workspace =
@@ -28,7 +28,7 @@ readme = "README.md"
 #resolver = 
 
 [lib]
-name = "rs_lib_template"
+name = "numerical_recipes"
 path = "src/lib.rs"
 test = true
 doctest = true
