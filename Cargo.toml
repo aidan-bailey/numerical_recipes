@@ -1,0 +1,44 @@
+[package]
+name = "rs_lib_template"
+version = "0.0.1"
+#authors = 
+edition = "2021"
+#rust-version = 
+#description =
+#documentation = 
+readme = "README.md"
+#homepage =
+#repository =
+#license = 
+#license-file =
+#keywords =
+#categories =
+#workspace =
+#build =
+#links =
+#exclude = 
+#include = 
+#public = 
+#metadata = 
+#default-run = 
+#autobins = 
+#autoexamples = 
+#autotests = 
+#autobenches = 
+#resolver = 
+
+[lib]
+name = "rs_lib_template"
+path = "src/lib.rs"
+test = true
+doctest = true
+bench = true
+doc = true
+plugin = false
+proc-macro = false
+harness = true
+edition = "2021"
+crate-type = ["lib"]
+required-features = []
+
+[dependencies]
