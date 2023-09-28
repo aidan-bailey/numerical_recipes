@@ -9,6 +9,7 @@ use num_traits::Float;
 /// * `b` - solution matrix
 ///
 /// # Returns
+///
 /// A tuple containing the matrix inverse of `a` and the corresponding set of solution vectors `b`.
 pub fn gaussj<T: Float>(mut a: Array2<T>, mut b: Array2<T>) -> (Array2<T>, Array2<T>) {
     let n = a.nrows();
